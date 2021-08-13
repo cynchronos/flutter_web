@@ -84,7 +84,7 @@ class _LandingPageState extends State<LandingPage> {
                     TextButton(
                       onPressed: () {},
                       child: Image.asset('accbtn.png', width: 163, height: 53),
-                    )
+                    ),
                   ],
                 ),
               ),
