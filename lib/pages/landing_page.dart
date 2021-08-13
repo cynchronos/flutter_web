@@ -78,7 +78,11 @@ class _LandingPageState extends State<LandingPage> {
                         navItem(title: 'Stories', index: 3),
                       ],
                     ),
-                    Image.asset('accbtn.png', width: 163, height: 53),
+                    InkWell(
+                      onTap: (){},
+                      child: Image.asset('accbtn.png', width: 163, height: 53),
+                    )
+                    
                   ],
                 ),
               ),
