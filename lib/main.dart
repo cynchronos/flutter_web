@@ -10,7 +10,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Web Server',
-      debugShowCheckedModeBanner: false,
       home: LandingPage(),
     );
   }
