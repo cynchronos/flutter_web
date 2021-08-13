@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Web Server',
       debugShowCheckedModeBanner: false,
       home: LandingPage(),
     );
