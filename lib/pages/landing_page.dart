@@ -24,14 +24,18 @@ class _LandingPageState extends State<LandingPage> {
               title,
               style: GoogleFonts.poppins(
                   fontSize: 18,
-                  fontWeight: index == selectedIndex ? FontWeight.w500 : FontWeight.w300,
+                  fontWeight: index == selectedIndex
+                      ? FontWeight.w500
+                      : FontWeight.w300,
                   color: Colors.black),
             ),
             Container(
               width: 66,
               height: 2,
               decoration: BoxDecoration(
-                color: index == selectedIndex ? Color(0xffFE998D) : Colors.transparent,
+                color: index == selectedIndex
+                    ? Color(0xffFE998D)
+                    : Colors.transparent,
                 borderRadius: BorderRadius.circular(20),
               ),
             ),
@@ -50,8 +54,7 @@ class _LandingPageState extends State<LandingPage> {
             fit: BoxFit.fill,
           ),
           SingleChildScrollView(
-            child: Column(
-              children: [
+            child: Column(children: [
               //! Navigation
               Padding(
                 padding:
@@ -78,11 +81,10 @@ class _LandingPageState extends State<LandingPage> {
                         navItem(title: 'Stories', index: 3),
                       ],
                     ),
-                    InkWell(
-                      onTap: (){},
+                    TextButton(
+                      onPressed: () {},
                       child: Image.asset('accbtn.png', width: 163, height: 53),
                     )
-                    
                   ],
                 ),
               ),
